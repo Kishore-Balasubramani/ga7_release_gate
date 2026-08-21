@@ -9,12 +9,12 @@ permissions:
   contents: read
 
 jobs:
-  release-gate-test:
+  test:
     runs-on: ubuntu-latest
 
     steps:
       - name: TDS identity: 24f2007918@ds.study.iitm.ac.in
-        run: echo "TDS identity: 24f2007918@ds.study.iitm.ac.in"
+        run: echo "TDS identity verified"
 
       - name: Checkout
         uses: actions/checkout@v4
